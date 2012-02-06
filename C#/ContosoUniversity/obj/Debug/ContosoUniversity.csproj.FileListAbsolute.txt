@@ -1,0 +1,10 @@
+C:\Contoso University\cs\ContosoUniversity\bin\ContosoUniversity.dll
+C:\Contoso University\cs\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\Contoso University\cs\ContosoUniversity\obj\Debug\ResolveAssemblyReference.cache
+C:\Contoso University\cs\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\Contoso University\cs\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+G:\Prasad\Practice\Project\EntityFramework\C#\ContosoUniversity\bin\ContosoUniversity.dll
+G:\Prasad\Practice\Project\EntityFramework\C#\ContosoUniversity\bin\ContosoUniversity.pdb
+G:\Prasad\Practice\Project\EntityFramework\C#\ContosoUniversity\obj\Debug\ResolveAssemblyReference.cache
+G:\Prasad\Practice\Project\EntityFramework\C#\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+G:\Prasad\Practice\Project\EntityFramework\C#\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
