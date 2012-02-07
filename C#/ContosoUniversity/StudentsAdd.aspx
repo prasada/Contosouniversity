@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"> 
-    <h2>Add New Students</h2> 
+    <h2>AddNew Students</h2> 
     <asp:EntityDataSource ID="StudentsEntityDataSource" runat="server"
         ContextTypeName="ContosoUniversity.DAL.SchoolEntities" EnableFlattening="False"
         EntitySetName="People" EntityTypeFilter="Student" 
