@@ -9,8 +9,13 @@
     <asp:EntityDataSource ID="DepartmentsEntityDataSource" runat="server" ContextTypeName="ContosoUniversity.DAL.SchoolEntities"
         EnableFlattening="false" EntitySetName="Departments" Select="it.[DepartmentID], it.[Name]">
     </asp:EntityDataSource>
+<<<<<<< HEAD
   <%--  shiva--%>
     Select adepartment:
+=======
+   <%-- lll--%>
+    Select a department:
+>>>>>>> cb804ab534c38fcc74f498f4c733ab4626a64234
     <asp:DropDownList ID="DepartmentsDropDownList" runat="server" DataSourceID="DepartmentsEntityDataSource"
         DataTextField="Name" DataValueField="DepartmentID" AutoPostBack="True">
     </asp:DropDownList>
@@ -20,6 +25,7 @@
         <WhereParameters>
             <asp:ControlParameter ControlID="DepartmentsDropDownList" Name="DepartmentID" PropertyName="SelectedValue"
                 Type="Int32" />
+             <%--   shiva--%>
         </WhereParameters>
     </asp:EntityDataSource>
     <br />
@@ -27,6 +33,7 @@
     <asp:GridView ID="CoursesGridView" runat="server" AutoGenerateColumns="False" DataKeyNames="CourseID"
         DataSourceID="CoursesEntityDataSource">
         <Columns>
+       <%-- strabus--%>
             <asp:BoundField DataField="CourseID" HeaderText="CourseID" ReadOnly="True" SortExpression="CourseID" />
             <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" />
             <asp:BoundField DataField="Credits" HeaderText="Credits" SortExpression="Credits" />
