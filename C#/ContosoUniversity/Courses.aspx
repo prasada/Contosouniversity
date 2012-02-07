@@ -9,7 +9,8 @@
     <asp:EntityDataSource ID="DepartmentsEntityDataSource" runat="server" ContextTypeName="ContosoUniversity.DAL.SchoolEntities"
         EnableFlattening="false" EntitySetName="Departments" Select="it.[DepartmentID], it.[Name]">
     </asp:EntityDataSource>
-    Select a department:
+  <%--  shiva--%>
+    Select adepartment:
     <asp:DropDownList ID="DepartmentsDropDownList" runat="server" DataSourceID="DepartmentsEntityDataSource"
         DataTextField="Name" DataValueField="DepartmentID" AutoPostBack="True">
     </asp:DropDownList>
