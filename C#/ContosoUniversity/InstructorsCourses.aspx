@@ -21,7 +21,8 @@
     <h3>
         Assign a Course</h3>
     <br />
-    Select a Course:
+   <%-- shiva--%>
+    Select aCourse:
     <asp:DropDownList ID="UnassignedCoursesDropDownList" runat="server" DataTextField="Title"
         DataValueField="CourseID">
     </asp:DropDownList>
