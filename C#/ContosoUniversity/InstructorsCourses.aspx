@@ -12,7 +12,8 @@
         EntitySetName="People" EntityTypeFilter="Instructor"
         Select="it.LastName + ', ' + it.FirstMidName AS Name, it.PersonID">
     </asp:EntityDataSource>
-    Select an Instructor:
+   <%-- strabus softwere--%>
+    Select anInstructor:
     <asp:DropDownList ID="InstructorsDropDownList" runat="server" DataSourceID="InstructorsEntityDataSource"
         AutoPostBack="true" DataTextField="Name" DataValueField="PersonID" OnSelectedIndexChanged="InstructorsDropDownList_SelectedIndexChanged"
         OnDataBound="InstructorsDropDownList_DataBound">
