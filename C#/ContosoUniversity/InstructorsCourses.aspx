@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
-        Assign Instructors to Courses or Remove from Courses</h2>
+        AssignInstructors to Courses or Remove from Courses to</h2>
     <br />
     <asp:EntityDataSource ID="InstructorsEntityDataSource" runat="server" 
         ContextTypeName="ContosoUniversity.DAL.SchoolEntities" EnableFlattening="False" 
